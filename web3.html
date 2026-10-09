@@ -1,0 +1,166 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STC | TARANG</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightyellow;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #222;
+        }
+
+        #banner {
+            background-color: #172554;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid orange;
+        }
+
+        #banner h1 {
+            font-size: 35px;
+            margin: 10px;
+        }
+
+        #banner h2 {
+            color: #ffeb3b;
+            font-size: 30px;
+            letter-spacing: 4px;
+            margin: 10px;
+        }
+
+        #banner p {
+            font-size: 16px;
+        }
+
+        #details {
+            display: flex;
+            gap: 30px;
+            margin: 30px;
+        }
+
+        #event-details {
+            border: 2px solid #1565c0;
+            background-color: lightblue;
+            padding: 20px;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #00000020;
+        }
+
+        #registration-events {
+            border: 2px solid #c2185b;
+            background-color: lightpink;
+            padding: 20px;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #00000020;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #details h1 {
+            color: #172554;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: darkblue;
+            background-color: #ffffff80;
+            padding: 12px;
+            border-radius: 5px;
+        }
+
+        #registration-events h3 {
+            color: #880e4f;
+        }
+
+        button {
+            padding: 12px 35px;
+            background-color: green;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 25px auto;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: 600px) {
+            #details {
+                flex-direction: column;
+                margin: 20px;
+            }
+
+            #event-details,
+            #registration-events {
+                width: 100%;
+            }
+
+            #banner h1 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="banner">
+        <h1>STC | Pollachi</h1>
+        <h2>TARANG</h2>
+        <p>Inter College Meet Fest - 09-10-2026</p>
+    </div>
+
+    <div id="details">
+
+        <div id="event-details">
+            <h1>Event Details</h1>
+            <h3>Quiz</h3>
+            <h3>Connection</h3>
+            <h3>Dancing</h3>
+        </div>
+
+        <div id="registration-events">
+            <h1>Registration Details</h1>
+            <h3>Registration Fee: ₹150</h3>
+            <h3>Last Date: 08-10-2026</h3>
+        </div>
+
+    </div>
+
+    <button onclick="alert('Thank you for your interest in TARANG!')">
+        Submit
+    </button>
+
+    <footer>
+        STC | Pollachi - TARANG 2026
+    </footer>
+
+</body>
+</html>
+```
